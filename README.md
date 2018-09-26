@@ -12,3 +12,4 @@ they fill horizontal row within the Matrix. As the pieces fall, your goal is to 
  * Lose - if block hits the top / Win - if all required blocks for scenario is passed.
 
 ## Wireframes
+![Wireframes](https://github.com/seoi99/metris/blob/master/asset/proposal-wireframe.jpeg)
