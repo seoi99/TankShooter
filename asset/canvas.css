@@ -1,0 +1,72 @@
+#MyCanvas {
+/* background: #eee; */
+display: block;
+/* margin: 0 auto; */
+/* border: 1px solid black; */
+background-image: url("intro.gif");
+width:500px;
+height:500px;
+background-size: 100% auto;
+background-repeat: no-repeat;
+min-width: 300px;
+border-radius: 5px;
+}
+
+body {
+  background-image: url("https://images3.alphacoders.com/175/175925.jpg");
+}
+.intro {
+  /* margin-top: 100px; */
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+  font-family: "Acme";
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.description {
+  margin: 10px;
+  padding:0 50px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: block;
+}
+
+.description ul {
+  list-style: none;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+.hidden {
+  display: none;
+}
+
+a {
+  color: black;
+}
+.link ul{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+
+.link ul i {
+  font-size: 50px;
+}
+
+
+
+.link ul button {
+  background: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 80px;
+}
+/* canvas { background: #eee; } */
