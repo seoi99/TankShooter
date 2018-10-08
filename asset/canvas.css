@@ -3,10 +3,10 @@
 display: block;
 /* margin: 0 auto; */
 /* border: 1px solid black; */
-background-image: url("intro.gif");
-width:500px;
+background-image: url("tank.jpg");
+/* width:500px; */
 height:500px;
-background-size: 100% auto;
+background-size: 500px 500px;
 background-repeat: no-repeat;
 min-width: 300px;
 border-radius: 5px;
@@ -20,18 +20,24 @@ body {
   display: flex;
   justify-content: center;
 }
-
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #2C4813;
+}
 header {
   text-align: center;
   font-family: "Acme";
   font-size: 50px;
   margin-bottom: 50px;
+  font-weight: 700;
 }
 
 .description {
   margin: 10px;
   padding:0 50px;
   color: white;
+  font-family: "Acme";
   border: 1px solid black;
   border-radius: 5px;
   display: block;
@@ -39,6 +45,10 @@ header {
 
 .description ul {
   list-style: none;
+  color: #AC2813;
+  font-size: 25px;
+  /* text-shadow: 1px 1px #ff0000; */
+
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lobster);
