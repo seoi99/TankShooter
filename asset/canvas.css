@@ -13,7 +13,7 @@ border-radius: 5px;
 }
 
 body {
-  background-image: url("https://images3.alphacoders.com/175/175925.jpg");
+  background-image: url("https://unity3d.com/sites/default/files/projectbanner.jpg");
 }
 .intro {
   /* margin-top: 100px; */
@@ -38,14 +38,14 @@ header {
   padding:0 50px;
   color: white;
   font-family: "Acme";
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 5px;
   display: block;
 }
 
 .description ul {
   list-style: none;
-  color: #AC2813;
+  color: #000;
   font-size: 25px;
   /* text-shadow: 1px 1px #ff0000; */
 
