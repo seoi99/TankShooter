@@ -1,10 +1,13 @@
+*{
+  font-family: "Acme";
+}
+
 #MyCanvas {
 /* background: #eee; */
 display: block;
 /* margin: 0 auto; */
-/* border: 1px solid black; */
-background-image: url("tank.jpg");
-/* width:500px; */
+border: 1px solid black;
+width:500px;
 height:500px;
 background-size: 500px 500px;
 background-repeat: no-repeat;
@@ -13,7 +16,9 @@ border-radius: 5px;
 }
 
 body {
-  background-image: url("https://unity3d.com/sites/default/files/projectbanner.jpg");
+  background-image: url("https://media.indiedb.com/images/games/1/29/28632/shadowsofwar_2014-04-18_12-06-08-30.avi.Standbild002.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .intro {
   /* margin-top: 100px; */
@@ -23,7 +28,7 @@ body {
 h1 {
   text-align: center;
   font-size: 40px;
-  color: #2C4813;
+  color: black;
 }
 header {
   text-align: center;
@@ -31,13 +36,13 @@ header {
   font-size: 50px;
   margin-bottom: 50px;
   font-weight: 700;
+  color: white;
 }
 
 .description {
   margin: 10px;
   padding:0 50px;
   color: white;
-  font-family: "Acme";
   /* border: 1px solid black; */
   border-radius: 5px;
   display: block;
@@ -45,7 +50,7 @@ header {
 
 .description ul {
   list-style: none;
-  color: #000;
+  color: white;
   font-size: 25px;
   /* text-shadow: 1px 1px #ff0000; */
 
@@ -58,8 +63,10 @@ header {
 }
 
 a {
-  color: black;
+  color: white;
+  text-decoration: none;
 }
+
 .link ul{
   display: flex;
   flex-direction: column-reverse;
@@ -68,6 +75,7 @@ a {
 
 .link ul i {
   font-size: 50px;
+  color: white;
 }
 
 
