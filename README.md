@@ -7,6 +7,7 @@
 
 ![alt text](https://github.com/seoi99/TankShooter/blob/master/asset/screenshot.png)
 
+### HOW TO PLAY
 
 ## Feature
 
@@ -29,7 +30,11 @@ updatedir() {
   ```
 
 
-### Enemy Movement
+### Player Feature
+* Enemy chase player's tank by sending player's current position as a argument in enemy's moving direction
+function.
+
+### Enemy Feature
 * Enemy chase player's tank by sending player's current position as a argument in enemy's moving direction
 function.
 
@@ -66,6 +71,10 @@ enemydir(playerX, playerY) {
 
 }
 ```
+
+### Enemy Attack
+* Enemy
+
 
 
 ### Item
