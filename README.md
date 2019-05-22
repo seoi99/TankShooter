@@ -85,28 +85,6 @@ shootBullet() {
 }
 ```
 
-### Enemy Attack
-* Enemy
-
-
-
-### Item
-* Player can upgrade the weapon after stage 4 by collecting weapon in the map. after player
-collide with item position, player will be enable to upgrade their weapon with new sprite image.
-
-
-``` javascript
-itemConsumed() {
-  if (this.stage >= 4) {
-    this.item.draw();
-    if (Math.abs(this.player.x - this.item.x) < 21 &&  Math.abs(this.player.y - this.item.y) < 21) {
-      this.player.itemupdate = true;
-      this.itemupdate = true;
-      this.item.consumed();
-    }
-  }
-}
-```
 
 
 ## Future Implementation
