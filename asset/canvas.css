@@ -7,7 +7,7 @@
 display: block;
 /* margin: 0 auto; */
 border: 2px solid white;
-width:500px;
+width:800px;
 height:500px;
 background-size: 500px 500px;
 background-repeat: no-repeat;
@@ -16,9 +16,7 @@ border-radius: 5px;
 }
 
 body {
-  background-image: url("https://unity3d.com/sites/default/files/projectbanner.jpg");
-  background-size: cover;
-  height: 100%;
+  background-image: url("http://sumedh.files.wordpress.com/2013/08/background.png");
   background-repeat: no-repeat;
 }
 .intro {
