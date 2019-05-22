@@ -5,9 +5,13 @@
 ## Background
 * Tank Shooter is 2d shooting game that is solely used by using vanilla javascript & canvas.
 
-![alt text](https://github.com/seoi99/TankShooter/blob/master/asset/screenshot.png)
+![alt text](https://github.com/seoi99/TankShooter/blob/master/asset/preview.png)
 
-### HOW TO PLAY
+## HOW TO PLAY
+* Click Live link to play the game.
+* Press "S" to start a game
+* Press "Space Bar" to Shoot the enemy tank
+* Press "Arrow key" to move a tank
 
 ## Feature
 
@@ -69,6 +73,18 @@ enemydir(playerX, playerY) {
     this.rotation = this.rotation;
   }
 
+}
+```
+
+* Enemy will shoot bullet based on current position & rotation.
+* Enemy's bullet will not be initialized unless it pass the border.
+
+``` javascript
+shootBullet() {
+  if (this.bullet === null || (this.bullet.x > 500 || this.bullet.x < 0 || this.bullet.y > 500 || this.bullet.y < 0)) {
+    this.bullet = new EnemyBullet(this.ctx, this.rotation,this.x,this.y);
+  }
+  this.bullet.draw();
 }
 ```
 
