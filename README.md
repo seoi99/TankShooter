@@ -35,8 +35,9 @@ updatedir() {
 
 
 ### Player Feature
-* Enemy chase player's tank by sending player's current position as a argument in enemy's moving direction
-function.
+* Once enemy is killed by player, there is a chance of getting HP potion that heals player's HP.
+* On Stage 4, player can upgrade bullet from basic to advanced.
+
 
 ### Enemy Feature
 * Enemy chase player's tank by sending player's current position as a argument in enemy's moving direction
