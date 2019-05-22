@@ -15,7 +15,9 @@
 
 ## Feature
 
-### Player's Bullet
+### Player Feature
+* Once enemy is killed by player, there is a chance of getting HP potion that heals player's HP.
+* On Stage 4, player can upgrade bullet from basic to advanced.
 * Player's bullet will be fired based on current movement/direction on player.
 
 ``` javascript
@@ -32,12 +34,6 @@ updatedir() {
   }
 }
   ```
-
-
-### Player Feature
-* Once enemy is killed by player, there is a chance of getting HP potion that heals player's HP.
-* On Stage 4, player can upgrade bullet from basic to advanced.
-
 
 ### Enemy Feature
 * Enemy chase player's tank by sending player's current position as a argument in enemy's moving direction
@@ -115,5 +111,5 @@ itemConsumed() {
 
 ## Future Implementation
 
-### Enemy's Bullet
-* Add enemy's bullet to attack current player based on enemy's direction
+### Item Update
+* Add more player's actionable feature (bullets, shields, speed boost)
